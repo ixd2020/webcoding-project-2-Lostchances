@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+h3 {
+    font-family: Helvetica Neue, sans-serif;
+}
+
+h5 {
+    font-family: Helvetica Neue, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #323232;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    margin: 10px;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+.navbar li a:hover {
+    color: darkgrey;
+
+    transition: 0.4s;
+}
+
+.navbar li a img {
+    width: 20px;
+}
+
+/*Hero goes here*/
+.hero {
+    background-image: url(images/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 575px;
+}
+
+.hero2 {
+    background-image: url(images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 575px;
+}
+
+.hero3 {
+    background-image: url(images/hero3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 575px;
+}
+
+
+.titles {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.titles img {
+    width: 50px;
+}
+
+.titles2 img {
+    width: 55px;
+    filter: invert(100%);
+}
+
+.tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles2 {
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.links {
+    margin: 15px;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #5bb3fe;
+    margin: 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+.one {
+    display: flex;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+}
+
+.child {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/child1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.child2 {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/child2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.child3 {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/child3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.child4 {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/child4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.child5 {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/child5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.child6 {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/child6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Footer goes here*/
+footer {
+    background-color: #f5f5f7;
+}
+
+.footerlink {
+    list-style-type: none;
+    margin: 30px;
+}
+
+.footerlink li a {
+    color: grey;
+    text-decoration: none;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+.footerlinkmain {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.footers {
+    background-color: transparent;
+}
+
+.navbar2 {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar2 li a {
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Helvetica Neue, sans-serif;
+    
+}
+
